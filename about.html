@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harakati</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+    />
+</head>
+<body>
+    <nav class="nav fixed-top">
+        <div class="logo-div">
+            <h1 class="logo-head">Harakati</h1>
+        </div>
+        <div class="links-section">
+            <div class="link-container">
+                <ul class="links">
+                    <li class="link"><a href="index.html">Home</a></li>
+                    <li class="link"><a href="#our-fleet-section">Our Fleet</a></li>
+                    <li class="link"><a href="#contact-section">Get Quote</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn-toggle">
+              <div class="line line1"></div>
+              <div class="line line2"></div>
+        </div>
+    </nav>
+
+    
+    <!-- main container -->
+    <div class="container-fluid">
+        <secttion class="row values-section">
+            <div class="row values">
+                <div class="col-lg-4 col-md-5 col-sm-8 col-xs-8 hidden">
+                    <div class="values-card">
+                        <div class="value-icon">R</div>
+                        <div class="value-title">Who We Are</div>
+                        <p class="text-center value-text">
+                            We are a wholly Zimbabwean owned well-established road
+                            freight transport and courier company.
+                            We transports a variety of general cargo and goods in
+                            southern Africa.
+                            All our drivers, Crane operators and general workers are fully trained and
+                            all employees and trucks comply with the safety standards.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-8 col-xs-8 hidden">
+                    <div class="values-card">
+                        <div class="value-icon">R</div>
+                        <div class="value-title">Mission</div>
+                        <p class="text-center value-text">
+                            Its goal is to provide the highest level of transportation services as
+                            well as safe and timely deliveries, with fair and competitive pricing
+                            while providing a safe workplace for employees and maintaining
+                            integrity, fairness and honesty with customers and business partners.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-8 col-xs-8 hidden">
+                    <div class="values-card">
+                        <div class="value-icon">R</div>
+                        <div class="value-title">Vision</div>
+                        <p class="text-center value-text">
+                            Harakati Logistic's mission is to become the recognized leader in
+                            Zimbabwe's transport industry for long and short distance trucking
+                            and transportation of goods.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </secttion>
+
+        <!-- our feet section -->
+        <section class="row our-fleet-section" id="our-fleet-section">
+            <div class="row">
+                <h3 class="section-header">Our <span> Fleet</span></h3>
+            </div>
+
+            <div class="row fleet">
+                <div class="col-lg-3 col-md-5 col-sm-8 col-xs-8 fleet-card">
+                  <div class="image-div f1"></div>
+                  <p class="fh">Side loaders</p>
+                  <div class="f-line"></div>
+                  <p class="fd">Which can lift loaded containers up to 30 tons</p>
+                </div>
+
+                <div class="col-lg-3 col-md-5 col-sm-8 col-xs-8 fleet-card">
+                  <div class="image-div f2"></div>
+                  <p class="fh">Super link</p>
+                  <div class="f-line"></div>
+                  <p class="fd">Which is used for general freight</p>
+                </div>
+
+                <div class="col-lg-3 col-md-5 col-sm-8 col-xs-8 fleet-card">
+                  <div class="image-div f3"></div>
+                  <p class="fh">Extendible Trailers</p>
+                  <div class="f-line"></div>
+                  <p class="fd">For transport of oversized & long parkhomes</p>
+                </div>
+            </div>
+
+            <div class="row fleet">
+                <div class="col-lg-3 col-md-5 col-sm-8 col-xs-8 fleet-card">
+                  <div class="image-div f4"></div>
+                  <p class="fh">Crane Truck</p>
+                  <div class="f-line"></div>
+                  <p class="fd">For lifting and rigging of containers and machinery</p>
+                </div>
+
+                <div class="col-lg-3 col-md-5 col-sm-8 col-xs-8 fleet-card">
+                  <div class="image-div f5"></div>
+                  <p class="fh">Tri Axels</p>
+                  <div class="f-line"></div>
+                  <p class="fd">Which are used for general freight up to 27 tons</p>
+                </div>
+
+                <div class="col-lg-3 col-md-5 col-sm-8 col-xs-8 fleet-card">
+                  <div class="image-div f6"></div>
+                  <p class="fh">Fuel tankers</p>
+                  <div class="f-line"></div>
+                  <p class="fd">For transport of fuel</p>
+                </div>
+            </div>
+        </section>
+        <!-- contact us section -->
+        <section class="row contact-us-section" id="contact-section">
+            <div class="row contact-us">
+                <div class="col-lg-4 col-md-5 col-sm-8 col-xs-10 get-qoute">
+                        <div class="contact-header">Get Quote</div>
+                        <form class="form-register">
+                            <input type="text" name="name"  placeholder="Full Name" required>
+                            
+                            <input type="email" name="email"  placeholder="Email" required>
+                            <input type="text" name="phone"  placeholder="Phone" required>
+                            <input type="text" name="cargo"  placeholder="Cargo Type" required>
+                            <input type="text" name="from"  placeholder="From" required>
+                            <input type="text" name="to"  placeholder="To" required>
+                            <button type="submit" class="mybtn-form">Get Qoute</button>
+
+                        </form>
+                </div>
+
+                <div class="col-lg-4 col-md-5 col-sm-8 col-xs-10">
+                    <div class="contact-header">Quick links</div>
+                    <ul class="ql-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#our-fleet-section">Our Fleet</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-5 col-sm-8 col-xs-10">
+                    <div class="contact-header">Contact us</div>
+                    <div class="cont-sec">
+                        <p class="cont-header">Location:</p>
+                        <address class="cont-details">
+                            <p>Stand No. 21772-21777,</p> 
+                            <p>Ruwa,</p> 
+                            <p>Zimbabwe.</p> 
+                        </address>
+                    </div>
+                    <div class="cont-sec">
+                        <p class="cont-header">Email:</p>
+                        <address class="cont-details">
+                            <p>tafadzwa@tsapogroup.co.zw</p>
+                            <p>lesley@tsapogroup.co.zw</p>
+                        </address>
+                    </div>
+                    <div class="cont-sec">
+                        <p class="cont-header">Contacts:</p>
+                        <address class="cont-details">
+                            <p>+263 242 447 343/5/6</p>
+                            <p>+263 242 2486 000/019</p>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="copy">&COPY; Harakati Logistics 2023</div>
+        <div class="sm-links">social-links</div>
+    </footer>
+    
+    <script src="./script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
