@@ -57,7 +57,17 @@ quoteForm.addEventListener("submit", (e)=>{
               From: ${quoteForm.from.value} \n
               To: ${quoteForm.to.value}
               `
-
+Email.send({
+  Host : "smtp.elasticemail.com",
+  Username : "tarisaishumba70@gmail.com",
+  Password : "DA314B04C1571F4CD79BD083A4D45FF9EA42",
+  To : 'risthanos@gmail.com',
+  From : quoteForm.email.value,
+  Subject : "qoutation enquiry",
+  Body : body
+}).then(
+message => alert(message)
+);
   console.log(body)
 })
 
