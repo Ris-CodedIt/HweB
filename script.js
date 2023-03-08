@@ -68,6 +68,5 @@ Email.send({
 }).then(
 message => alert(message)
 );
-  console.log(body)
 })
 
