@@ -34,7 +34,7 @@ const observer = new IntersectionObserver((entries) => {
   checktop();
   
   function checktop() {
-    const triggerPoint = window.innerHeight * 0.8;
+    const triggerPoint = window.innerHeight * 0.85;
     boxes.forEach((box) => {
       let top = box.getBoundingClientRect().top;
   
